@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahzaib | Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Shahzaib Ali" width="80">
+                </figure>
+                <!-- <div class="info-content">
+          <h1 class="name" title="Shahzaib Ali">Shahzaib Ali</h1>
+          <p class="title">Flutter | Android | iOS</p>
+        </div> -->
+
+                <div class="info-content">
+                    <h1 class="name" title="Shahzaib Ali">Shahzaib Ali</h1>
+                    <!-- <p class="title" title="Flutter | Android | iOS">Flutter | Android | iOS</p> -->
+                    <p class="title">Front-End Developer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:alfaizkhan2810@gmail.com"
+                                class="contact-link">shahzaibalijamro@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+923202072879" class="contact-link">+92 3202072879</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">July 29, 2006</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Gulistan-e-Johar, Karachi, Pakistan</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://github.com/shahzaibalijamro" target="_blank" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/shahzaibalijamro/" target="_blank" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/shahzaibalijamro/" target="_blank" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <!-- <li class="social-item">
+                        <a href="" target="_blank" class="social-link">
+                            <ion-icon name="chatbubbles-outline"></ion-icon>
+                        </a>
+                    </li> -->
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        Hey there! I’m Shahzaib Ali, a dedicated MERN Stack Developer with a passion for building
+                        functional, user-friendly applications.
+                        My skills include:
+                    </p>
+
+                    <p>
+                        <br>• Strong foundation in JavaScript, TypeScript, React, and Next.js, with hands-on experience
+                        in building responsive, dynamic front-end applications.
+                        <br>• Skilled in Firebase (Authentication, Firestore, Storage, Hosting) for efficient, real-time
+                        data management and secure user authentication.
+                        <br>• Proficient in GitHub and version control, ensuring smooth project management and team
+                        collaboration.
+                        <br>• Expertise in state management with Redux Toolkit and component libraries like Material UI
+                        and Daisy UI for enhanced styling and functionality.
+                        <br>• Completed a range of projects, from a live-data weather app to a fully functional blogging
+                        platform, enabling users to post and explore content.
+                        <br>• Currently advancing my React Native skills with Expo, having built an InDrive clone to
+                        enhance my cross-platform development capabilities.
+                        <br>• Dedicated to writing clean, maintainable code, with a strong focus on testing, debugging,
+                        and optimizing front-end performance.
+                        <br>• I plan to learn Node.js, Express.js, NestJS, MongoDB, JWT, WebSocket, Bcrypt, Cloudinary, GraphQL, PostgreSQL, and various payment integration methods to expand my back-end development skills.
+                    </p>
+                </section>
+
+
+                <!--
+          - service
+        -->
+
+        <section class="service">
+
+            <h3 class="h3 service-title">What I'm Doing</h3>
+        
+            <ul class="service-list">
+                
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src="./assets/images/icon-dev.svg" alt="web development icon" width="40">
+                    </div>
+        
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Web Applications</h4>
+        
+                        <p class="service-item-text">
+                            Building complex, responsive front-end web applications using React, Next.js, and modern JavaScript libraries.
+                        </p>
+                    </div>
+                </li>
+                
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                    </div>
+        
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Mobile Applications</h4>
+        
+                        <p class="service-item-text">
+                            Developing high-quality mobile applications on Expo, with a focus on Android platforms.
+                        </p>
+                    </div>
+                </li>
+        
+            </ul>
+        
+        </section>
+        
+
+
+                <!--
+          - testimonials
+        -->
+
+                <!-- <section class="testimonials">
+
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-1.png" alt="Client From USA" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Client From USA</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the
+                                        industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a galley of type
+                                        and scrambled it to make a type specimen book. It has survived not only five
+                                        centuries, but also the
+                                        leap into electronic typesetting, remaining essentially unchanged. It was
+                                        popularised in the 1960s
+                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                        recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section> -->
+
+
+                <!--
+          - testimonials modal
+        -->
+
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/avatar-1.png" alt="Client From USA" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+
+                            <h4 class="h3 modal-title" data-modal-title>Client From USA</h4>
+
+                            <time datetime="2021-06-14">14 June, 2021</time>
+
+                            <div data-modal-text>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and
+                                    scrambled it to make a type specimen book. It has survived not only five centuries,
+                                    but also the leap
+                                    into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                    the 1960s with the
+                                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                    desktop publishing
+                                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+                <!--
+          - clients
+        -->
+
+                <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+            </article>
+
+
+
+
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Al-Hamd Grammer School</h4>
+
+                            <span>2023</span>
+
+                            <p class="timeline-text">
+                                Matric - Pre-Medical
+                                <br>
+                                Grade: 87%
+                                </br>
+
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Ghaaro Government College</h4>
+
+                            <span>2024 — Present</span>
+
+                            <p class="timeline-text">
+                                Intermediate, Computer Science
+                                <br>
+                                Grade: TBD
+                                </br>
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Web Development</h4>
+                            <span>SMIT</span>
+
+                            <span>Nov 2023 — Present</span>
+
+                            <p class="timeline-text">
+                                Skills: HTML, CSS, JS, React, Next.js, React Native and Firebase
+                            </p>
+
+                        </li>
+                    </ol>
+
+                </section>
+
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">JavaScript</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">React</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Next.js</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%;"></div>
+                            </div>
+
+                        </li>
+
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Firebase</h5>
+                                <data value="75">75%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">React Native Expo</h5>
+                                <data value="50">50%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Mobile Applications</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Pub.dev</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Mobile Applications</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Pub.dev</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://react-blogging-app.netlify.app">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Untitled design.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Blogging app / React</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://react-blogging-app.netlify.app">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/meme-maker.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Meme maker / Next.js</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://react-weather-app-six-drab.vercel.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Untitled design (12).png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Weather app / React</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://react-quiz-app-by-shahzaib.netlify.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/react-quiz.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Quiz app / React</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://admission-portal-blond.vercel.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/next-application-form.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Admission portal / Next.js</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://redux-e-commerce-store.netlify.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/redux-ecommerce.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Redux E-commerce store / React</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://frontend-final-hackathon.web.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Untitled design.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Hackathon task / JS</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://shahzaib-todo-app.netlify.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/todo-app.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">To do app / JS</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://shahzaib-buy-sell-corner.web.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/buy-sell-corner.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Buy/Sell corner / JS</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://expense-management-by-shahzaib.web.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/meme-maker.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Expense managing app / JS</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://shahzaib-bk-clone.netlify.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/bk-clone.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">BK clone / CSS</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://shahzaib-noon-clone.netlify.app/">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/noon-clone.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Noon clone / CSS</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+            
+
+
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7236.903206518251!2d67.14591448934857!3d24.91668094181759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33852fed16a5f%3A0x2635bea20da705e0!2sBhitaiabad%20Bhittaiabad%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1730303825620!5m2!1sen!2s"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                                data-form-input>
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required
+                            data-form-input></textarea>
+
+                        <button class="form-btn" type="submit">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+
+                    </form>
+
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
